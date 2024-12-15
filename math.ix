@@ -1,0 +1,4 @@
+int(var1) = 5;
+var1=5+5;
+print(var1);
+print(5+5);

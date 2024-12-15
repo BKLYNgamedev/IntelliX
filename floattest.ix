@@ -1,0 +1,8 @@
+string s1 = "hello";
+int var1 = 1;
+float var2 = 6.4;
+(string)var1;
+(string)var2;
+print(s1);
+print(var1);
+print(var2);

@@ -1,0 +1,13 @@
+bool(var1) = true;
+bool(var2) = false;
+var1 = false;
+var2 = true;
+int(var3) = 0;
+var3 = true;
+print(var3);
+var3 = false;
+print(var3);
+var3 = 3.14;
+print(var3);
+var3 = 3.99;
+print(var3);

@@ -1,0 +1,9 @@
+int integer = 10;
+float (floating) = 1.5;
+string (words) = "Hello, World";
+
+(int)floating;
+(int)words;
+
+print(floating);
+print(words);

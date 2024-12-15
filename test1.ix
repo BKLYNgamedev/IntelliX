@@ -1,0 +1,3 @@
+float(var1) = -12.34;
+int(var2) = -42;
+string(var3) = "Test string";

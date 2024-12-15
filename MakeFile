@@ -1,0 +1,34 @@
+# Compiler
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++11
+
+# Source files
+SRCS = parse.cpp error_messages.cpp tokenize.cpp
+
+# Object files
+OBJS = $(SRCS:.cpp=.o)
+
+# Executable name
+TARGET = intellix
+
+# Default rule
+all: $(TARGET)
+
+# Link rule
+$(TARGET): $(OBJS)
+    $(CXX) $(OBJS) -o $(TARGET)
+
+# Compile rule
+%.o: %.cpp
+    $(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Clean rule
+clean:
+    rm -f $(OBJS) $(TARGET)
+
+# Print help
+help:
+    @echo "Usage:"
+    @echo "  make             Build the intellix executable"
+    @echo "  make clean       Remove compiled files"
+    @echo "  make help        Print this help message"

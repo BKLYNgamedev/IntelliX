@@ -1,0 +1,3 @@
+string(var1) = 'Another test';
+int(var2) = 5.5;
+float(var3) = 3.1415;
